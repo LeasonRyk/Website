@@ -7,6 +7,7 @@ ul {
     position: fixed;
     width: 67.7%;
     top: 0;
+    text-align: center;
     
 
   }
@@ -30,6 +31,7 @@ ul {
       text-align: center;
       height: 50px;
       font-style: oblique;
+      
   }
 li{
     float: left;
@@ -51,9 +53,11 @@ h1 {
     align-items: center;
     text-align: justify;
     margin: 0;
-    background-image: url("image_1.jpeg");
+    background-image:  rgba(0, 0, 0, 0.336), url("image_1.jpeg");
     font-size: 36pt;
-    opacity: 0.5;
+   
+   
+
 }
 section{
     height: 100vh;

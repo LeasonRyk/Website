@@ -144,3 +144,6 @@ h4{
 .box input[type = "submit"]:hover{
   background: #2ecc71;
 }
+body{
+  background-color: lightgray;
+}

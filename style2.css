@@ -1,37 +1,35 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding-left: 15%;
+    padding-left: 25%;
     position: fixed;
     width: 100%;
     top: 0;
     text-align: center;
     overflow: hidden;
-    background-color: white ;
+    background-color: white;
 
   }
-  ul:hover{
-    background-color: white;
-    border-bottom: 2px solid black;
-    
-  }
+
+
+  
   
   li a {
     text-align: center;
-    width: 80%;
+    width: 50%;
     display: flex;
     color: rgb(0, 0, 0);
-    padding: 20px 20px;
+    padding: 50px 20px;
     text-decoration: none;
-    font-size: 23pt;
+    font-size: 13pt;
    text-decoration-line: overline;
-    
+    margin-top: 20px;
   }
   
   
   li a:hover {
-    background-color: #555;
-    
+  color: #2ecc71;
+    margin-top: 0px;
    
   }
   h2 {
@@ -44,8 +42,8 @@ float: left;
     
 }
 
-section Week{
-    background-color: #555 ;
+section {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)), url('poop.jpg');
 }
 h1 {
     text-align: center;
@@ -54,20 +52,20 @@ h1 {
  
 
  header{
-    height: 50vh;
+    height: 15vh;
     display: flex;
     text-align: justify;
     margin: 0;
     font-size: 36pt;
 
 }
-section{
-    height: 100vh;
-    border: 2px solid black;
+#home{
+    height: 60vh;
+    border: 2px solid rgb(44, 43, 43);
     display: flex;
-    justify-content: center;
     align-items: baseline;
-    text-align: center;
+    background-color: lightgray;
+   
 
 }
 
@@ -75,20 +73,76 @@ section{
   width: 250px;
   height: 100px;
  float: left;
-}
-main{
-  padding-left: 250px ;
-  padding-right: 250px ;
+ 
 
 }
+
 .image1{
   width: 800px;
   height: 480px;
-  padding-left: 550px;
+  padding-left: 700px;
   top: 0;
 }
 p{
   font-size: 54pt;
   font-style: oblique;
 
+}
+h3{
+  font-size: 40pt;
+  padding-left: 400px;
+  text-align: left;
+  padding-top: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+ font-style: normal ;
+}
+h4{
+  font-size: 40pt;
+  padding-left: 400px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#home .button{
+  border-radius: 50%;
+}
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  margin-left: 250px;
+  font-size: 25pt;
+
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box input[type = "submit"]{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2ecc71;
 }
